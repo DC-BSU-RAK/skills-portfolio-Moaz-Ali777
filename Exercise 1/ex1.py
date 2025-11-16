@@ -4,8 +4,6 @@ from PIL import Image, ImageTk
 import random
 import threading 
 import os # To check for files
-
-# --- NEW AUDIO IMPORT ---
 import pygame # Use pygame for audio
 
 # Game Settings
@@ -19,7 +17,7 @@ DIFFICULTY_MAP = {
     'Advanced': (4, 4)
 }
 
-# --- FILE PATHS (NOW USING .MP3!) ---
+# FILE PATH
 BG_IMAGE_PATH = "background.png" 
 AUDIO_MENU_BG = "menu_bg.mp3"
 AUDIO_EASY_LEVEL = "easy_level.mp3"
