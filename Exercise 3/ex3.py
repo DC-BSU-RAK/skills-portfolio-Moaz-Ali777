@@ -108,7 +108,7 @@ class Student:
 
 class StudentManagerApp:
     # Define the default icon file name
-    ICON_FILE = "app_icon.ico" 
+    ICON_FILE = "headphones.ico" # Finally, using the headphones icon! Perfect for deep-focus study.
 
     def __init__(self, master):
         self.master = master
@@ -161,9 +161,9 @@ class StudentManagerApp:
         style = ttk.Style()
         
         # Define the new blue palette
-        main_bg = '#D0EEF4'          
-        frame_bg = '#EAF7FA'         
-        treeview_bg = '#BFDDE3'      
+        main_bg = '#D0EEF4'       
+        frame_bg = '#EAF7FA'       
+        treeview_bg = '#BFDDE3'    
 
         # General background and font
         style.theme_use('clam') 
@@ -689,7 +689,7 @@ if __name__ == "__main__":
         print("-" * 60, file=sys.stderr)
         try:
             messagebox.showerror("Critical Launch Error", 
-                                 f"The application failed to start due to a critical error.\n"
+                                 f"The application failed to start due0 to a critical error.\n"
                                  f"Check your console for the full traceback: {type(e).__name__}: {e}")
         except:
             pass
